@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Addition Result</title>
+
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 40px;
+        }
+        h2 {
+            margin-bottom: 10px;
+        }
+        #result {
+            font-size: 18px;
+            color: #333;
+        }
+    </style>
+</head>
+<body>
+
+    <h2>Addition Result</h2>
+    <p id="result">Result will appear here...</p>
+
+    <script>
+        // Step 1: Create two variables
+        let a = 5;
+        let b = 10;
+
+        // Step 2: Calculate the sum
+        let sum = a + b;
+
+        // Step 3: Display the result in the paragraph
+        document.getElementById("result").innerHTML =
+            "The sum of " + a + " and " + b + " is " + sum;
+    </script>
+
+</body>
+</html>
